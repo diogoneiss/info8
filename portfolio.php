@@ -1,6 +1,7 @@
 
             <section id="portfolio" class="portfolio sections" style="">
-                <div class="container-fluid">
+               <!--
+				<div class="container-fluid">
                     <div class="row">
                         <div class="main_portfolio">
                             <div class="col-sm-12">
@@ -35,16 +36,7 @@
                                         </div>
                                     </a>
                                 </div>
-								  <div class="single_portfolio tile scale-anm web grid-item-width2 video" >
-                                  <img src="<?php bloginfo('template_url'); ?>/assets/images/t02.jpg" alt="" />
-                                    <a href="<?php bloginfo('template_url'); ?>/assets/images/t02.jpg" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"> <h3>Mieloma</h3></div>
-                                           
-                                           
-                                        </div>
-                                    </a>
-                                </div>
+								  
 								  <div class="single_portfolio tile scale-anm web grid-item-width2 video" >
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/t03.jpg" alt="" />
                                     <a href="<?php bloginfo('template_url'); ?>/assets/images/t03.jpg" class="portfolio-img">
@@ -55,16 +47,7 @@
                                         </div>
                                     </a>
                                 </div>
-								  <div class="single_portfolio tile scale-anm web grid-item-width2 video" >
-                      <img src="<?php bloginfo('template_url'); ?>/assets/images/t04.jpg" alt="" />
-                                    <a href="<?php bloginfo('template_url'); ?>/assets/images/t04.jpg" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4">   <h3>Marcha8</h3></div>
-                                         
-                                          
-                                        </div>
-                                    </a>
-                                </div>
+								  
                                 <div class="single_portfolio tile scale-anm bcards photo" >
                             <img src="<?php bloginfo('template_url'); ?>/assets/images/t05.jpg" alt="" />
                                     <a href="<?php bloginfo('template_url'); ?>/assets/images/t05.jpg" class="portfolio-img">
@@ -75,17 +58,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="single_portfolio tile scale-anm web video">
-                              <img src="<?php bloginfo('template_url'); ?>/assets/images/t06.jpg" alt="" />
-                                    <a href="<?php bloginfo('template_url'); ?>/assets/images/t06.jpg" class="portfolio-img">
-                                 
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"><h3>Leucemia</h3></div>
-                                            
-                                         
-                                        </div>
-                                    </a>
-                                </div>
+                                
                                 <div class="single_portfolio tile scale-anm web photo" >
                              <img src="<?php bloginfo('template_url'); ?>/assets/images/t07.jpg" alt="" />
                                     <a href="<?php bloginfo('template_url'); ?>/assets/images/t07.jpg" class="portfolio-img">
@@ -96,16 +69,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="single_portfolio tile scale-anm bcards design" >
-                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/t08.jpg" alt="" />
-                                    <a href="<?php bloginfo('template_url'); ?>/assets/images/t08.jpg" class="portfolio-img">
-                                        <div class="grid_item_overlay">
-                                            <div class="separator4"> <h3>Past8</h3></div>
-                                           
-                                        
-                                        </div>
-                                    </a>
-                                </div>
+                               
 
                          
                           
@@ -116,5 +80,53 @@
                             <div style="clear:both;"></div>  
                         </div>
                     </div>
-                </div><!-- End off container --> 
+                </div><!-- End off container
+
+--> 
+				<style>
+					.logoParceiro {
+						margin: 0;
+						object-fit: contain
+						
+					}
+				</style>
+				
+				
+  <div class="py-5">
+    <div class="container">
+      <div class="row hidden-md-up">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">Past8</h4>
+             
+              <a href="#" class="card-link">Second link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-block" style="">
+            
+				<a href="#" class="card-link"><img class="logoParceiro"src="https://static.wixstatic.com/media/75f72c_2ee53a0df54a4a5ba235d347d62a527e~mv2_d_7016_4961_s_4_2.png/v1/crop/x_0,y_1467,w_7016,h_2026/fill/w_324,h_92,al_c,q_85,usm_0.66_1.00_0.01/75f72c_2ee53a0df54a4a5ba235d347d62a527e~mv2_d_7016_4961_s_4_2.webp" alt="Braincloud" width="auto"></a>
+        
+      
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-block">
+              
+            <a href="#" class="card-link"><img class="logoParceiro"src="https://static.wixstatic.com/media/3eacfa_06634a1b34cd41fb90d98472eb56530d~mv2.png" alt="Performa Brasil" width="auto"></a>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        
+      </div>
+    </div>
+  </div>
+ 
             </section> <!-- End off Work Section -->            
